@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<slide_show>
+<options>
+<background>transparent</background>
+<interaction>
+<speed>50</speed>
+</interaction>
+<titles>
+<style>
+font-size: 14px; font-family: Verdana, _serif; color: #003366;
+</style>
+</titles>
+</options>
+<photo title="Slide9" href="javascript:aclick('ancor_Slide9_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide9.JPG</photo>
+<photo title="Slide13" href="javascript:aclick('ancor_Slide13_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide13.JPG</photo>
+<photo title="Slide12" href="javascript:aclick('ancor_Slide12_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide12.JPG</photo>
+<photo title="Slide11" href="javascript:aclick('ancor_Slide11_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide11.JPG</photo>
+<photo title="Slide10" href="javascript:aclick('ancor_Slide10_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide10.JPG</photo>
+<photo title="Slide8" href="javascript:aclick('ancor_Slide8_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide8.JPG</photo>
+<photo title="Slide7" href="javascript:aclick('ancor_Slide7_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide7.JPG</photo>
+<photo title="Slide6" href="javascript:aclick('ancor_Slide6_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide6.JPG</photo>
+<photo title="Slide5" href="javascript:aclick('ancor_Slide5_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide5.JPG</photo>
+<photo title="Slide4" href="javascript:aclick('ancor_Slide4_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide4.JPG</photo>
+<photo title="Slide3" href="javascript:aclick('ancor_Slide3_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide3.JPG</photo>
+<photo title="Slide2" href="javascript:aclick('ancor_Slide2_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide2.JPG</photo>
+<photo title="Slide1" href="javascript:aclick('ancor_Slide1_id')" target="_self">http://www.dessinemoiuneecole.org/jom/images/oziogallery2/Slide1.JPG</photo>
+</slide_show>

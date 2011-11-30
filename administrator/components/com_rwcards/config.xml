@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config menu="hide">
+	<params>
+		<param name="lifetime"
+			type="text"
+			default="7"
+			label="LIFETIME"
+			size="6" />
+
+		<param name="cardsperpage"
+			type="text"
+			default="3"
+			label="CARDSPERPAGE"
+			size="6" />
+
+		<param name="rowsperpage"
+			type="text"
+			default="3"
+			label="ROWSPERPAGE"
+			size="6" />
+
+		<param name="pagewidth"
+			type="text"
+			default="400"
+			label="PAGEWIDTH"
+			size="6" />
+
+		<param name="pageheight"
+			type="text"
+			default="300"
+			label="PAGEHEIGHT"
+			size="6" />
+
+		<param name="attachment" type="radio" default="0" label="ATTACHEMENT">
+			<option value="0">no</option>
+			<option value="1">yes</option>
+		</param>
+
+		<param name="captcha" type="radio" default="1" label="CAPTCHA">
+			<option value="0">no</option>
+			<option value="1">yes</option>
+		</param>
+
+		<param name="separate_front_back" type="radio" default="1" label="SEPARATE_FRONT_BACK">
+			<option value="0">no</option>
+			<option value="1">yes</option>
+		</param>
+
+		<param name="set_height" type="radio" default="1" label="Set height for front and back of cards">
+			<option value="0">no</option>
+			<option value="1">yes</option>
+		</param>
+
+		<param name="set_width" type="radio" default="1" label="Set width for front and back of cards">
+			<option value="0">no</option>
+			<option value="1">yes</option>
+		</param>
+
+		<param name="lightbox_type" type="radio" default="0" label="Lightbox type">
+			<option value="0">Built-in</option>
+			<option value="1">Other</option>
+		</param>
+
+		<param name="lightbox_rel"
+			type="text"
+			default=""
+			label="rel value for popup images"
+			description="Set the rel parameter here if you're using your own lightbox implementation"
+			size="20" />
+
+		<param name="rwCardsFormValidator" type="radio" default="mooToolsFV" label="Error notifications" description="Which system should be used to display errors when filling in the cards?">
+			<option value="mooToolsFV">MooTools FormValidator</option>
+			<option value="js">JS Alert</option>
+			<option value="joomla">Joomla</option>
+		</param>
+
+		<param name="adminimagesperrow"
+			type="text"
+			default="3"
+			label="ADMINIMAGESPERROW"
+			description=""
+			size="6" />
+
+		<param name="thumbnail_suffix"
+			type="text"
+			default="rwcards"
+			label="THUMBNAIL_SUFFIX"
+			description="THUMBNAIL_SUFFIX_DESC"
+			size="14" />
+
+		<!--<param name='msg_copyright'
+			type="textarea"
+			rows="3"
+			cols="50"
+			default="RWCards - Copyright Ralf Weber / LoadBrain - http://www.weberr.de/"
+			label="MSG_COPYRIGHT_CONFIG_TEXT"
+			style="readonly"
+			description="MSG_COPYRIGHT_DESC" />-->
+
+	</params>
+</config>

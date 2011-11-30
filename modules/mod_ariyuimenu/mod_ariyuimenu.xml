@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="module" method="upgrade">
+	<name>ARI YUI Menu</name>
+	<author>ARI Soft</author>
+	<creationDate>July 2010</creationDate>
+	<copyright>ARI Soft</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@ari-soft.com</authorEmail>
+	<authorUrl>www.ari-soft.com</authorUrl>
+	<version>1.0.11</version>
+	<description>ARI YUI MENU MODULE</description>
+	<files>
+		<filename module="mod_ariyuimenu">mod_ariyuimenu.php</filename>
+		<filename>index.html</filename>
+		<folder>mod_ariyuimenu/</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_ariyuimenu.ini</language>
+		<language tag="he-IL">language/he-IL/he-IL.mod_ariyuimenu.ini</language>
+		<language tag="sk-SK">language/sk-SK/sk-SK.mod_ariyuimenu.ini</language>
+	</languages>
+	<params>
+		<param name="menutype" type="mos_menu" default="mainmenu" label="AYM_PARAM_MENUTYPE_LABEL" description="AYM_PARAM_MENUTYPE_DESCR" />
+		<param name="safeMode" type="list" default="1" label="AYM_SAFEMODE_LABEL" description="AYM_SAFEMODE_DESCR">
+			<option value="0">AYM_NO</option>
+			<option value="1">AYM_YES</option>
+		</param>
+		<param name="remainActive" type="list" default="0" label="AYM_REMAINACTIVE_LABEL" description="AYM_REMAINACTIVE_DESCR">
+			<option value="0">AYM_NO</option>
+			<option value="1">AYM_YES</option>
+		</param>
+		<param name="width" type="text" default="" size="10" label="AYM_PARAM_WIDTH_LABEL" description="AYM_PARAM_WIDTH_DESCR" />
+		<param name="classname" type="text" default="" size="10" label="AYM_PARAM_CLASSNAME_LABEL" description="AYM_PARAM_CLASSNAME_DESCR" />
+		<param name="submenualignment" type="text" default="" size="10" label="AYM_PARAM_SUBMENUALIGNMENT_LABEL" description="AYM_PARAM_SUBMENUALIGNMENT_DESCR" />
+		<param name="showdelay" type="text" default="250" size="5" label="AYM_PARAM_SHOWDELAY_LABEL" description="AYM_PARAM_SHOWDELAY_DESCR" />
+		<param name="hidedelay" type="text" default="750" size="5" label="AYM_PARAM_HIDEDELAY_LABEL" description="AYM_PARAM_HIDEDELAY_DESCR" />
+		<param name="maxheight" type="text" default="0" size="5" label="AYM_PARAM_MAXHEIGHT_LABEL" description="AYM_PARAM_MAXHEIGHT_DESCR" />
+		<param name="minscrollheight" type="text" default="90" size="5" label="AYM_PARAM_MINSCROLLHEIGHT_LABEL" description="AYM_PARAM_MINSCROLLHEIGHT_DESCR" />
+		<param name="scrollincrement" type="text" default="1" size="5" label="AYM_SCROLLINCREMENT_LABEL" description="AYM_SCROLLINCREMENT_DESCR" />
+		<param name="fontSize" type="text" default="11px" size="10" label="AYM_FONTSIZE_LABEL" description="AYM_FONTSIZE_DESCR" />
+		<param name="fontWeight" type="list" default="normal" label="AYM_FONTWEIGHT_LABEL" description="AYM_FONTWEIGHT_DESCR">
+			<option value="normal">AYM_FONTWEIGHT_OPT_NORMAL</option>
+			<option value="bold">AYM_FONTWEIGHT_OPT_BOLD</option>
+			<option value="bolder">AYM_FONTWEIGHT_OPT_BOLDER</option>
+			<option value="lighter">AYM_FONTWEIGHT_OPT_LIGHTER</option>
+		</param>
+		<param name="textTransform" type="list" default="none" label="AYM_TEXTTRANSFORM_LABEL" description="AYM_TEXTTRANSFORM_DESCR">
+			<option value="none">AYM_TEXTTRANSFORM_OPT_NONE</option>
+			<option value="capitalize">AYM_TEXTTRANSFORM_OPT_CAPITALIZE</option>
+			<option value="uppercase">AYM_TEXTTRANSFORM_OPT_UPPERCASE</option>
+			<option value="lowercase">AYM_TEXTTRANSFORM_OPT_LOWERCASE</option>
+		</param>
+		<param name="showHiddenItems" type="list" default="0" label="AYM_SHOWHIDDEN_LABEL" description="AYM_SHOWHIDDEN_DESCR">
+			<option value="0">AYM_NO</option>
+			<option value="1">AYM_YES</option>
+		</param>
+		<param name="highlightCurrentItem" type="list" default="1" label="AYM_HIGHLIGHTCURITEM_LABEL" description="AYM_HIGHLIGHTCURITEM_DESCR">
+			<option value="0">AYM_NO</option>
+			<option value="1">AYM_YES</option>
+		</param>
+		<param name="direction" type="list" default="horizontal" label="AYM_MENUDIR_LABEL" description="AYM_MENUDIR_DESCR">
+			<option value="horizontal">AYM_MENUDIR_OPT_HORIZONTAL</option>
+			<option value="vertical">AYM_MENUDIR_OPT_VERTICAL</option>
+		</param>
+		<param name="style" type="textarea" rows="10" cols="50" label="AYM_STYLE_LABEL" description="AYM_STYLE_DESCR" />
+	</params>
+</install>

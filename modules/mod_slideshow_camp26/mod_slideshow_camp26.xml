@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Camp26 YetAnotherSlideShow</name>
+	<author>Reza Erauansyah</author>
+	<creationDate>22 December 2009</creationDate>
+	<license>GPLv2.0 - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<authorEmail>old_smu17@yahoo.com</authorEmail>
+	<authorUrl>www.camp26.biz</authorUrl>
+	<version>1.0</version>
+	<description>NEWMODULE : SLIDESHOW</description>
+	<files>
+		<filename module="mod_slideshow_camp26">mod_slideshow_camp26.php</filename>
+	<folder>laskar_slide</folder>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+		
+	</files>
+	
+
+	<folder>cache</folder>
+	<media folder="images" destination="camp26_slide">
+			<filename>1.jpg</filename>
+			<filename>2.jpg</filename>
+			<filename>3.jpg</filename>
+			<filename>4.jpg</filename>
+			<filename>5.jpg</filename>
+			<filename>6.jpg</filename>
+			<filename>7.jpg</filename>
+			<filename>8.jpg</filename>
+			<filename>index.html</filename>
+	</media>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_slideshow_camp26.ini</language>
+	</languages>
+
+	
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A Suffix to be applied the CSS class of this module, this allow indivdual module styling" />
+
+		<param name="jkuery" type="radio" default="1" label="Use JQuery" description="sometimes, you need to disable this options if there's conflict with other js framework">
+			<option value="1">Enable</option>		
+			<option value="0">Disable</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+				
+		<param name="slidewidth" type="text" default="600" label="Width" description="slideshow width" />
+		<param name="slideheight" type="text" default="260" label="Height" description="slideshow height" />
+				
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="image_status1" type="radio" default="1" label="Image 1 Status" description="Enable or disable this image">
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</param>		
+		<param name="slide_img1" type="imagelist" directory="/media/camp26_slide" default="1.jpg" label="Image 1" description="Image for 1st slide slot" />		
+		<param name="image_url1" type="text" default="http://www.camp26.biz" label="Url for Image 1 " description="Type an url for this image, eg. http://www.camp26.biz" />
+		<param name="image_title1" type="text" default="Image 1 title" label="Title for Image 1" description="" />
+		<param name="image_description1" type="textarea" default="type your text for first image here, bla bla bla" label="Text for Image 1" description="" cols="60" rows="4"/>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="image_status2" type="radio" default="1" label="Image 2 Status" description="Enable or disable this image">
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</param>
+		<param name="slide_img2" type="imagelist" directory="/media/camp26_slide" default="2.jpg" label="Image 2" description="Image for second slide slot" />		
+		<param name="image_url2" type="text" default="http://www.camp26.biz" label="Url for Image 2 " description="Type an url for this image, eg. http://www.camp26.biz" />
+		<param name="image_title2" type="text" default="Image 2 title" label="Title for Image 2" description="" />
+		<param name="image_description2" type="textarea" default="type your text for second image here, bla bla bla" label="Text for Image 2" description="" cols="60" rows="4" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="image_status3" type="radio" default="1" label="Image 3 Status" description="Enable or disable this image">
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</param>
+		<param name="slide_img3" type="imagelist" directory="/media/camp26_slide" default="3.jpg" label="Image 3" description="Image for third slide slot" />
+		<param name="image_url3" type="text" default="http://www.camp26.biz" label="Url for Image 3 " description="Type an url for this image, eg. http://www.camp26.biz" />
+		<param name="image_title3" type="text" default="Image 3 title" label="Title for Image 3" description="" />
+		<param name="image_description3" type="textarea" default="type your text for third image here, bla bla bla" label="Text for Image 3" description="" cols="60" rows="4" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="image_status4" type="radio" default="1" label="Image 4 Status" description="Enable or disable this image">
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</param>
+		<param name="slide_img4" type="imagelist" directory="/media/camp26_slide" default="4.jpg" label="Image 4" description="Image for 4th slide slot" />
+		<param name="image_url4" type="text" default="http://www.camp26.biz" label="Url for Image 4 " description="Type an url for this image, eg. http://www.camp26.biz" />
+		<param name="image_title4" type="text" default="Image 4 title" label="Title for Image 4" description="" />
+		<param name="image_description4" type="textarea" default="type your text for 4th image here, bla bla bla" label="Text for Image 4" description="" cols="60" rows="4" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="image_status5" type="radio" default="1" label="Image 5 Status" description="Enable or disable this image">
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</param>
+		<param name="slide_img5" type="imagelist" directory="/media/camp26_slide" default="5.jpg" label="Image 5" description="Image for 5th slide slot" />
+		<param name="image_url5" type="text" default="http://www.camp26.biz" label="Url for Image 5 " description="Type an url for this image, eg. http://www.camp26.biz" />
+		<param name="image_title5" type="text" default="Image 5 title" label="Title for Image 5" description="" />
+		<param name="image_description5" type="textarea" default="type your text for 5th image here, bla bla bla" label="Text for Image 5" description="" cols="60" rows="4" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="image_status6" type="radio" default="1" label="Image 6 Status" description="Enable or disable this image">
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</param>
+		<param name="slide_img6" type="imagelist" directory="/media/camp26_slide" default="6.jpg" label="Image 6" description="Image for 6ht slide slot" />
+		<param name="image_url6" type="text" default="http://www.camp26.biz" label="Url for Image 6 " description="Type an url for this image, eg. http://www.camp26.biz" />
+		<param name="image_title6" type="text" default="Image 6 title" label="Title for Image 6" description="" />
+		<param name="image_description6" type="textarea" default="type your text for 6th image here, bla bla bla" label="Text for Image 6" description="" cols="60" rows="4" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="image_status7" type="radio" default="1" label="Image 7 Status" description="Enable or disable this image">
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</param>
+		<param name="slide_img7" type="imagelist" directory="/media/camp26_slide" default="7.jpg" label="Image 7" description="Image for 7th slide slot" />
+		<param name="image_url7" type="text" default="http://www.camp26.biz" label="Url for Image 7 " description="Type an url for this image, eg. http://www.camp26.biz" />
+		<param name="image_title7" type="text" default="Image 7 title" label="Title for Image 7" description="" />
+		<param name="image_description7" type="textarea" default="type your text for 7th image here, bla bla bla" label="Text for Image 7" description="" cols="60" rows="4" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="image_status8" type="radio" default="1" label="Image 8 Status" description="Enable or disable this image">
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</param>
+		<param name="slide_img8" type="imagelist" directory="/media/camp26_slide" default="8.jpg" label="Image 8" description="Image for 8th slide slot" />
+		<param name="image_url8" type="text" default="http://www.camp26.biz" label="Url for Image 8 " description="Type an url for this image, eg. http://www.camp26.biz" />
+		<param name="image_title8" type="text" default="Image 8 title" label="Title for Image 8" description="" />
+		<param name="image_description8" type="textarea" default="type your text for 8th image here, bla bla bla" label="Text for Image 8" description="" cols="60" rows="4" />
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+
+
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

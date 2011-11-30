@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>a4joomla-Minimalist-free</name>
+	<author>Tamás Szabó</author>
+	<copyright>Copyright 2010 a4joomla.com</copyright>
+	<license>Creative Commons License</license>
+	<authorEmail>admin@a4joomla.com</authorEmail>
+	<authorUrl>www.a4joomla.com</authorUrl>
+	<version>1.1</version>
+	<description>
+	<![CDATA[
+	<h1>a4joomla Minimalist-free</h1>
+	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+	<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="http://a4joomla.com" property="cc:attributionName" rel="cc:attributionURL">a4joomla.com</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>.<br />
+	The pro version can be purchased at <a href="http://a4joomla.com/">a4joomla.com</a>.<br />
+	<img src="../templates/a4joomla-minimalist-free/template_thumbnail.png" align="left" style="margin-right:5px;" />	
+	]]> 
+	</description>
+	<creationDate>March 2010</creationDate>
+<files>
+  <filename>index.php</filename>
+  <filename>params.ini</filename>
+  <filename>templateDetails.xml</filename>
+  <filename>iepngfix.htc</filename>
+  <filename>template_thumbnail.png</filename>
+  <folder>js/</folder>
+  <folder>css/</folder>
+  <folder>images/</folder>
+</files>
+<positions>                          
+<position>left</position> 
+<position>breadcrumb</position>           
+<position>right</position>             
+<position>footer</position>
+<position>user3</position>
+<position>user4</position>
+<position>top</position>
+</positions>          
+<params>
+<param name="logoType" type="list" default="text" label="Logo type" description="Sets the logo type">
+		<option value="text">Text</option>
+		<option value="graphic">Graphic</option>
+</param>
+<param name="headline" type="text" default="Minimalist-S" label="Headline" description="Your headline"/>
+<param name="slogan" type="text" default="TEMPLATE FROM A4JOOMLA.COM" label="Slogan" description="Your slogan"/>
+<param name="pageWidth" type="text" default="960" label="Page Width in px (e.g. 960)" description="Set the page width in pixel (e.g. 960)"/>
+<param name="rightColumnWidth" type="text" default="200" label="Right Column Width in px (e.g. 200)" description="Set the right column width in pixel (e.g. 200)"/>
+<param name="leftColumnWidth" type="text" default="200" label="Left Column Width in px (e.g. 200)" description="Set the left column width in pixel (e.g. 200)"/>
+<param name="logoHeight" type="text" default="85" label="Logo Height in px (e.g.100)" description="Height of your logo image in px"/>
+<param name="logoWidth" type="text" default="330" label="Logo Width in px (e.g. 250)" description="Width of your logo image in px"/>
+</params>
+</install>

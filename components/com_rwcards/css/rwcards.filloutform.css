@@ -1,0 +1,132 @@
+.rwcards, .rwcardsfull 
+{
+border: 1px #999 solid;
+font-size: 12px;
+}
+
+.rwcardsImage
+{
+border: 1px #999 solid;
+width:auto;
+padding: 10px;
+margin-bottom:20px;
+}
+* html .rwcardsfull  /* this is recognized by IE only */
+{
+  width: auto;  /* total width, only for IE5.x/Win */
+  w\idth: auto; /* content width for other IE */
+}
+
+.rwcardsfull
+{
+	width:auto;
+	padding: 10px;
+	margin-bottom:20px;
+	margin-left:0px;
+/*	text-align:center; */
+}
+
+
+* html .rwcards  /* this is recognized by IE only */
+{
+  width: auto;  /* total width, only for IE5.x/Win */
+  w\idth: auto; /* content width for other IE */
+}
+
+.rwcards
+{
+	height: 158px;
+	width: 208px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+.rwcardsLeftForm
+{
+	width: 50%;
+	float: left;
+	text-align:left;
+}
+.rwcardsRightForm
+{
+	width: 49%;
+	float: right;
+	text-align:right;
+	border-left: 1px #999 dotted;
+	
+}
+
+
+.rwcards_buttons_bottom
+{
+	margin-top:20px;
+	padding-top:8px;
+	margin-bottom:5px;
+	border-top: 1px #999 dotted;
+	font-size: 12px;
+	text-align: center;
+}
+
+.selectbox
+{
+	font-size: 12px;
+}
+
+.rwcards_inputbox
+{
+	width:210px;
+	border: 1px groove black;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	size:12px;
+}
+
+.rwcards_button, .rwcardsLink
+{
+	width:150px;
+	border: 1px groove black;	
+}
+
+.rwcardsClr 
+{
+	clear: both;
+}
+
+#rwCardsBack, #rwCardsPreviewCard, #rwCardsSendCard, #rwcardsGoBack, #rwcardsSend, #showFrontCard, #showBackCard, #rwcardsReWriteCard, #moreReceivers, #lessReceivers{
+	cursor: pointer;
+}
+
+#rwCardsFormMessage {
+	width: 210px;
+	height: 100px;
+}
+.rwcardsReceiver {
+	display: inherit; /* req by safari for cloning */
+}
+
+#moreReceivers, #lessReceivers {
+	font-weight: bold;
+}
+#captcha_caption {}
+#rwcardsCaptchaImage {}
+#rwcardsCaptchaImage img {}
+#rwcardsCaptchaInputLabel {}
+#rwcardsCaptchaInput {}
+#rwcardsCaptchaHints {}
+
+
+div.validation-advice{
+    color: red;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px;
+    width: auto;
+}
+
+.rwCardsErrorCaptchaError{
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+}
