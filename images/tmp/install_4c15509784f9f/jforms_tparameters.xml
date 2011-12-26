@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+	<name>JForms:Data</name>
+	<author>Mostafa Muhammad</author>
+	<version>0.7</version>
+	<description>Definition for JForms component [Translatable form fields]</description>
+	<reference>
+		<table name="jforms_tparameters">
+			<field type="referenceid" name="id" translate="0">ID</field>
+			<field type="titletext" name="plugin_name" translate="0">Element type</field>
+			<field type="titletext" name="parameter_name" translate="0">Parameter name</field>
+			<field type="textarea" name="parameter_value" translate="1">Parameter value</field>
+		</table>
+	</reference>
+	<translationfilters>
+		<jforms_empty>parameter_value</jforms_empty>
+		<jforms_name>fid</jforms_name>
+	</translationfilters>
+</joomfish>
