@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+  <name>Facebook FanBox</name>
+  <author>Khawaib Ahmed</author>
+	<creationDate>July 2009</creationDate>
+	<copyright>Copyright (C) 2009 - Present. www.Khawaib.co.uk. All rights reserved.</copyright>
+	<authorEmail>khawaib@khawaib.co.uk</authorEmail>
+	<authorUrl>www.khawaib.co.uk</authorUrl>
+	<license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>	
+  <version>1.5.x.0</version>
+  <description><![CDATA[FBFANBOX INSTALLATION]]></description>
+  <files>
+      <filename>mod_fbfanbox.xml</filename>
+      <filename module="mod_fbfanbox">mod_fbfanbox.php</filename>
+      <filename>index.html</filename>
+      <filename>helper.php</filename>
+      <filename>tmpl/index.html</filename>
+      <filename>tmpl/default.php</filename>
+  </files>
+  <languages>
+      <language tag="en-GB">en-GB.mod_fbfanbox.ini</language>
+  </languages>
+  <params>
+		<param name="api_key" type="text" default="" label="API Key" description="API key from your facebook API" />
+		<param name="profile_id" type="text" default="" label="Page ID" description="ID of your page on Facebook page" />
+		<param name="script_call" type="radio" default="1" label="Enable Connect Script" description="If you already use another Facebook Connect app in your website then disable this option.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="include_stream" type="radio" default="1" label="Include Stream" description="Include Stream">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="number_of_fans" type="list" default="10" label="Number of fans" description="Number of fans to include">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+		</param>
+
+		<param name="boxwidth" type="text" default="300" label="Width" description="Width of FanBox (Default: 300)" />
+		<param name="boxheight" type="text" default="550" label="Height" description="Height of FanBox (Default: 550)" />
+	</params>
+
+	<params group="advanced">
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the CSS class of module for individual styling." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

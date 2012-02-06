@@ -1,0 +1,173 @@
+.rwcards, .rwcardsfull 
+{
+border: 1px #999 solid;
+font-size: 12px;
+}
+
+.rwcardsImage
+{
+border: 1px #999 solid;
+width:auto;
+padding: 10px;
+margin-bottom:20px;
+}
+* html .rwcardsfull  /* this is recognized by IE only */
+{
+  width: 415px;  /* total width, only for IE5.x/Win */
+  w\idth: 415px; /* content width for other IE */
+}
+
+.rwcardsfull
+{
+	width:auto;
+	padding: 10px;
+	margin-bottom:20px;
+	margin-left:0px;
+	text-align:center;
+}
+
+
+* html .rwcards  /* this is recognized by IE only */
+{
+  width: 190px;  /* total width, only for IE5.x/Win */
+  w\idth: 190px; /* content width for other IE */
+}
+
+.rwcards
+{
+	height: 200px;
+	width: 208px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+.rwcardsLeftForm
+{
+	width:50%;
+	float: left;
+	text-align:left;
+	clear:none;
+}
+.rwcardsRightForm
+{
+	width: 49%;
+	float: right;
+	text-align:right;
+	border-left: 1px #999 dotted;
+	height:auto;
+	min-height:220px;
+}
+
+.rwcards_buttons_bottom
+{
+	margin-top:20px;
+	padding-top:8px;
+	margin-bottom:5px;
+	border-top: 1px #999 dotted;
+	font-size: 12px;
+	text-align: center;
+}
+
+.selectbox
+{
+	font-size: 12px;
+}
+
+.rwcardsClr 
+{
+	clear: both;
+}
+
+.rwcards_button, .rwcardsLink
+{
+	/* same as rwcards_button in other style sheet*/
+	width:150px;
+	border: 1px groove black;	
+}
+
+.rwcardsLink
+{
+	font-family:Verdana;
+	font-size:12px;
+	font-weight:bold;
+	border: 0px;
+}
+
+.rwcardsLink:hover
+{
+	font-family:Verdana;
+	font-size:12px;
+	font-weight:bold;
+	color:#135CAE;
+}
+
+#rwCardsBack, #rwCardsPreviewCard, #rwCardsSendCard, #rwcardsGoBack, #rwcardsSend, #showFrontCard, #showBackCard, #rwcardsReWriteCard {
+	cursor: pointer;
+}
+
+/* replacing many of the style elements */
+
+#rwcardsViewWrapper {
+	position:relative;
+	width:auto;
+	text-align:center;
+}
+
+#frontCard img.thecard {
+	border:1px solid black;
+}
+
+div.rw_date {
+	text-align:right;
+	float: right;
+	font-weight:bold;
+}
+p.rw_from {
+	font-weight:bold;
+}
+span.rw_label {
+	/* labels like "Your Name", "Message", "Recipient Name" */
+}
+p.rw_from span.rw_from_name {}
+p.rw_from span.rw_from_email {}
+
+p.rw_message {
+	font-weight:bold;
+}
+
+p.rw_message span.rw_text {}
+
+p.rw_postmark {
+	text-align:right;
+}
+p.rw_to {
+	font-weight:bold;
+	text-align:right;
+}
+/* each receiver in the preview page is inside one of these: */
+p.rw_receiver {
+	font-weight:bold;
+	text-decoration:underline;
+	text-align:right;
+	padding-right:5px;
+}
+p.rw_receiver span.rw_to_name {}
+p.rw_receiver span.rw_to_email {}
+
+div.rw_reply_now div.rw_reply_image {
+	text-align:right;
+	padding-right:5px;
+}
+
+div.rw_reply_now div.rw_reply_text {
+	text-align:right;
+	padding-right:5px;
+	font-weight:bold;
+}
+
+#rwcardsReWriteCard {
+	margin-top: 1em;
+}

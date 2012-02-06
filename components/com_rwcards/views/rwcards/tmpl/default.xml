@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="VIEW_ALL_CATEGORIES">
+		<message>
+			<![CDATA[VIEW_ALL_RWCARDS_CATEGORIES]]>
+		</message>
+	</layout>
+	<state>
+		<name>MENU_ALL_CAT_VIEW</name>
+		<description></description>
+		<params> 
+
+			<param name="thumbnail_data" type="radio" default="a-d" label="THUMBNAIL_INFO">
+				<option value="a-d">TITLE_AUTHOR_AND_DESCRIPTION</option>
+				<option value="d-a">DESCRIPTION_TITLE_AUTHOR</option>
+				<option value="d">DESCRIPTION_ONLY</option>
+				<option value="a">TITLE_AUTHOR_ONLY</option>
+				<option value="none">none</option>
+			</param>
+
+			<param name="cats_page_heading"
+				type="text"
+				default="View Cards"
+				label="CATS_PAGE_HEADING"
+				description="CATS_PAGE_HEADING_DESC"
+				size="40" /> 
+
+			<param name="cards_page_heading"
+				type="text"
+				default="View Cards"
+				label="CARDS_PAGE_HEADING"
+				description="CARDS_PAGE_HEADING_DESC"
+				size="40" /> 
+
+			<param name="description_prefix"
+				type="text"
+				default="" 
+				label="DESCRIPTION_PREFIX"
+				description="DESCRIPTION_PREFIX_DESC"
+				size="40" /> 
+
+			<param name="titleauthor_prefix"
+				type="text"
+				default="" 
+				label="TITLE_AUTHOR_PREFIX"
+				description="TITLE_PREFIX_DESC"
+				size="40" />
+				
+			<param name="thumb_box_width"
+				type="text"
+				default="260px" 
+				label="THUMBNAIL_BOX_WIDTH"
+				size="40" /> 
+		
+			<param name="thumb_box_height"
+				type="text"
+				default="220px" 
+				label="THUMBNAIL_BOX_HEIGHT"
+				size="40" /> 
+
+		</params>
+	</state>
+</metadata>

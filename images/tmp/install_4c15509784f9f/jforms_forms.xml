@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+	<name>JForms</name>
+	<author>Mostafa Muhammad</author>
+	<version>0.7</version>
+	<description>Definition for JForms component [Form Meta data]</description>
+	<reference>
+		<table name="jforms_forms">
+			<field type="referenceid" name="id" translate="0">ID</field>
+			<field type="titletext" name="title" translate="1">Title</field>
+		</table>
+	</reference>
+</joomfish>

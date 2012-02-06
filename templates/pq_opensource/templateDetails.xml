@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+	<install version="1.5" type="template">
+		<name>pq_opensource</name>
+		<creationDate>Dec 2009</creationDate>
+		<author>PQSofts.com</author>
+		<authorEmail>pqsofts@gmail.com</authorEmail>
+		<authorUrl>http://pqsofts.com</authorUrl>
+		<copyright>>Copyright (C) 2009 PQ Softs. All rights reserved.</copyright>
+		<version>1.0.0</version>
+		<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+		<description>
+		<![CDATA[
+			<h1>PQ Open Source</h1>
+
+			<img src="../templates/pq_opensource/template_thumbnail.png" align="left" style="margin-right: 10px;" hspace="10" />PQ Open Source is the new december 2009 Joomla template from <a target="_blank" href="http://pqsofts.com">PQSofts.com</a>. It is free.
+
+			<h3>Features</h3>
+
+			Speed Optimisation<br />
+			SEF Optimised Layout<br />
+			5 level dropdown menu<br />
+			7 Module Positions<br />
+			W3C XHTML 1.0 Transitional. W3C CSS 3 Valid<br />
+			Cross browser compatibility (IE7, IE8, Firefox, Opera, Safari and Google Chrome)<br />
+			IE6 Error message<br />
+			Optimized code for search engines which helps in SEO<br /><br />
+			<h3>Initial Release</h3>
+
+			]]>  	
+		</description>
+		
+		<files>
+			<file>index.php</file>
+			<file>params.ini</file>
+			<file>template_thumbnail.png</file>
+			<file>templateDetails.xml</file>
+			<folder>/css/</folder>
+			<folder>/html/</folder>
+			<folder>/images/</folder>
+		</files>	
+		
+		<positions>
+			<position>top-menu</position>
+			<position>search</position>
+			<position>nav</position>
+			<position>banner</position>
+			<position>left</position>
+			<position>right</position>
+			<position>footer-nav</position>
+		</positions>		
+	</install>		
+				

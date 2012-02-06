@@ -1,0 +1,254 @@
+body {
+	background: #fff;
+	color: #666;
+}
+#topmenuwrap {
+  background: none;
+}
+#topmenu {
+	background: none;
+	border-bottom: 1px solid #99a;
+}
+#headerwrap {
+	background: none;
+}
+#footerwrap {
+	background: #dddde9;
+	border-top: 1px solid #b3b3c6;
+}
+#header {
+	background: none;
+}
+#logo {
+
+}
+#logo h1 {
+	color:#445;
+}
+#logo a:link, #logo a:visited, #logo a:hover, #logo a:active {
+border: none;
+}
+#logo h1 a:link, #logo h1 a:visited, #logo h1 a:hover, #logo h1 a:active {
+color: #445;
+text-decoration: none;
+}
+#headerright{
+	background: none;
+}
+#top{
+	background: none;
+}
+#slogan{
+	background: none;
+}
+#slogan h2{
+	color:#99a;
+}
+h2,.contentheading {
+color: #445;
+}
+h3 {
+color: #445;
+}
+h4 {
+color: #000;
+}
+h5 {
+color: #000;
+}
+h6 {
+color: #000;
+}
+#search{
+	background: none;
+}
+#contentwrap {
+	background: none;
+}
+#wrap {
+	background: none;
+}
+#cbody {
+
+}
+#content60 {
+	background: none;
+}
+#pathway {
+	background: none;
+}
+#content {
+	background: none;
+}
+#footer {
+	background: none;
+	color: #445;
+}
+#footer .moduletable {
+background: none;
+}
+#sidebar {
+	background: none;
+}
+#sidebar-2 {
+	background: none;
+}
+fieldset{
+
+}
+.componentheading {
+	color: #445;
+}
+.mosimage_caption {
+color:#777;
+}
+a:link, a:visited {
+color: #66c;
+text-decoration: none;
+}
+a:hover, a:active {
+color: #66c;
+text-decoration: underline;
+}
+#footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
+color: #445;
+text-decoration: underline;
+}
+#a4j a:link, #a4j a:visited, #a4j a:hover, #a4j a:active {
+color: #777;
+text-decoration: underline;
+}
+/* ==== MODULES =======================================  */
+.moduletable {
+	background: none;
+}
+.moduletable h3 {
+	color:#445;
+	border-bottom: 1px solid #99a;
+}
+/* ==== TEXT MODULES =======================================  */
+.moduletable_text {
+	background: none;
+}
+.moduletable_text h3 {
+	color:#445;
+	background: none;
+  border-bottom: 1px solid #99a;
+}
+/* ==== SIDEBAR MODULES =======================================  */
+#sidebar .moduletable {
+	background: none;
+}
+#sidebar .moduletable h3 {
+	color:#445;
+background: none;
+border-bottom: 1px solid #99a;
+}
+/* ==== SIDEBAR2 MODULES =======================================  */
+#sidebar-2 .moduletable {
+	background: none;
+}
+#sidebar-2 .moduletable h3 {
+	color:#445;
+background: none;
+border-bottom: 1px solid #99a;
+}
+/* ======= SEARCH =======================  */
+#search .moduletable {
+	background: none;
+}
+#search .moduletable h3{
+	background: none;
+}
+/* ========== TOPMENU =====================================*/
+#topmenu .moduletable ul li a {
+background: none;
+	color: #445;
+	border-right: 0px solid #e1e1e1;
+}
+#topmenu .moduletable ul li.active a {
+color: #bbbbc9;
+background: none;
+}
+#topmenu .moduletable ul li a:hover {
+color: #bbbbc9;
+background: none;
+}
+/* ========== TOPMENU2 (TOP MODULE POSITION) =====================================*/
+#top .moduletable ul li a {
+background: none;
+	color: #445;
+	border-right: 0px solid #e1e1e1;
+}
+#top .moduletable ul li.active a {
+color: #9999a9;
+background: none;
+}
+#top .moduletable ul li a:hover {
+color: #9999a9;
+background: none;
+}
+/* ======= SIDE MENUS ================================  */
+.moduletable_menu {
+background: none ;
+color: #445;
+}
+.moduletable_menu h3 {
+	color:#445;
+background: none;
+border-bottom:1px #99a solid;
+}
+.moduletable_menu li {
+	border-bottom: 1px dashed #ddd;
+}
+.moduletable_menu li ul li {
+	border-bottom:0px solid #ccc;
+	border-top:0px dashed #e4e4e4;
+	background: none;
+}
+.moduletable_menu li a {
+	color: #445;
+}
+.moduletable_menu li ul li a {
+background: none;
+}
+.moduletable_menu li#current a {
+	color:#66c;
+}
+.moduletable_menu li#current * a {
+	color:#445;
+}
+.moduletable_menu li ul li a:hover, .moduletable_menu li#current ul li a:hover {
+	color:#66c;
+}
+.moduletable_menu li a:link, .moduletable_menu li a:visited {
+color: #445;
+text-decoration: none;
+}
+.moduletable_menu li a:hover {
+color: #66c;
+text-decoration: none;
+}
+.moduletable_menu li a:active {
+color: #445;
+text-decoration: none;
+}
+/* ========== content ======================*/
+.contenttoc{
+
+}
+.small{
+color:#777;
+}
+.createdate{
+color:#777;
+}
+.modifydate{
+color:#777;
+}
+td.sectiontableentry1 {
+}
+td.sectiontableentry2 {
+}
+tr.sectiontableentry1 {background: none; }
+tr.sectiontableentry2 {background: none; }

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="VIEW_ONE_CATEGORY">
+		<message>
+			<![CDATA[VIEW_SINGLE_RWCARDS_CATEGORY]]>
+		</message>
+	</layout>
+	<state>
+		<name>RWCARDS_SINGLE_CATEGORY_VIEW</name>
+		<description>CHOOSE_CATEGORY</description>
+		<params> 
+
+			<param name="category_id"
+				type="text"
+				default="" 
+				label="CATEGORY_ID"
+				description="CATEGORY_ID_TO_DISPLAY"
+				size="40" /> 
+
+			<param name="cards_page_heading"
+				type="text"
+				default="View Cards"
+				label="CARDS_PAGE_HEADING"
+				description="CARDS_PAGE_HEADING_DESC"
+				size="40" /> 
+
+			<param name="thumbnail_data" type="radio" default="a-d" label="THUMBNAIL_INFO">
+				<option value="a-d">TITLE_AUTHOR_AND_DESCRIPTION</option>
+				<option value="d-a">DESCRIPTION_TITLE_AUTHOR</option>
+				<option value="d">DESCRIPTION_ONLY</option>
+				<option value="a">TITLE_AUTHOR_ONLY</option>
+				<option value="none">none</option>
+			</param>
+
+			<param name="description_prefix"
+				type="text"
+				default="" 
+				label="DESCRIPTION_PREFIX"
+				description="DESCRIPTION_PREFIX_DESC"
+				size="40" /> 
+
+			<param name="titleauthor_prefix"
+				type="text"
+				default="" 
+				label="TITLE_AUTHOR_PREFIX"
+				description="TITLE_PREFIX_DESC"
+				size="40" /> 
+
+		</params>
+	</state>
+</metadata>

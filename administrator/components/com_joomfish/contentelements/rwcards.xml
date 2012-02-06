@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>RWCards Cards</name>
+  <author>Ralf Weber</author>
+  <version>3.0.16</version>
+  <description>Definition for RWCards Cards</description>
+  <reference>
+	<table name="rwcards">
+		<field type="referenceid" name="id" translate="0">ID</field>
+		<field type="titletext" name="picture" translate="1">Picture-Filename</field>
+		<field type="text" name="autor" translate="1">Title/Author</field>
+		<field type="text" name="email" translate="0">Email</field>
+		<field type="textarea" name="description" translate="1">Description</field>
+		<field type="text" name="category_id" translate="0">Category-ID</field>
+		<field type="checked_out_by" name="checked_out" translate="0">Checked out by</field>
+		<field type="checked_out_date" name="checked_out_time" translate="0">Checked out date</field>
+	</table>
+  </reference>
+  <translationfilters>
+    <keyword>picture</keyword>
+    <published>published</published>
+  </translationfilters>
+</joomfish>

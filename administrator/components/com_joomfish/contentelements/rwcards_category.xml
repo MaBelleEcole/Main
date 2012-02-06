@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>RWCards Categories</name>
+  <author>Ralf Weber</author>
+  <version>3.0.16</version>
+  <description>Definition for RWCards Categories</description>
+  <reference>
+    <table name="rwcards_category">
+      <field type="referenceid" name="id" translate="0">ID</field>
+      <field type="titletext" name="category_kategorien_name" translate="1">Name</field>
+      <field type="textarea" name="category_description" translate="1">Description</field>
+      <field type="checked_out_by" name="checked_out" translate="0">Checked out by</field>
+      <field type="checked_out_date" name="checked_out_time" translate="0">Checked out date</field>
+    </table>
+  </reference>
+  <translationfilters>
+    <keyword>category_kategorien_name</keyword>
+    <published>published</published>
+  </translationfilters>
+</joomfish>
