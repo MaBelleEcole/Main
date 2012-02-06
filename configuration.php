@@ -31,9 +31,9 @@ class JConfig {
 	var $ftp_pass = '';
 	var $ftp_root = '';
 	var $dbtype = 'mysql';
-	var $host = 'localhost';
-	var $user = 'dessine1_jo151';
-	var $db = 'dessine1_jo151';
+	var $host = '*******';
+	var $user = '*******';
+	var $db = '********';
 	var $dbprefix = 'jos_';
 	var $mailer = 'mail';
 	var $mailfrom = 'info@mabelleecole.org';
@@ -49,7 +49,7 @@ class JConfig {
 	var $MetaTitle = '1';
 	var $lifetime = '15';
 	var $session_handler = 'database';
-	var $password = 'bFkQEd0klSEB';
+	var $password = '*******';
 	var $sitename = 'Ma Belle Ecole';
 	var $MetaDesc = 'association humanitaire ayant pour mission première de parrainer des enfants dans les pays en voie de développement pour se rendre en classe dans leur village.
 rejoignez nous !';
